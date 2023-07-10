@@ -18,12 +18,7 @@ body{
     margin-bottom: 20px;
     
 }
-.info .description{
-    width: 49%;
-    font-size: 18px;
-    color: white;
-    line-height: 22px;
-}
+
 
 .side_menu{
     position: fixed;

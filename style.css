@@ -1,7 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
     max-width: 1280px;
-    background-color: black;
     margin: 0 auto;
 }
 
@@ -42,6 +41,7 @@ body{
     width: 30px;
     transition: 0.3s ease-in-out;
     cursor: pointer;
+    filter: invert(1);
 }
 
 .side_menu .icon:hover{

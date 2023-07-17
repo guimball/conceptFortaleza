@@ -6,18 +6,28 @@ body{
 
 .content{
     display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    justify-content: flex-start;
 }
 
-.info .logo{
+.content .headers{
+    display: flex;
+    flex-direction: row;
+}
+
+.register, .games, .store, .about{
+    height: 185.75px;
+    display: grid;
+    place-items: center;
+    padding-top: 10px;
+    padding-left: 45px;
+}
+
+
+.logo{
     margin-top: 38px;
     max-width: 80px;
     margin-bottom: 20px;
     
 }
-
 
 .side_menu{
     position: fixed;

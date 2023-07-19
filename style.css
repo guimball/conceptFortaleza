@@ -4,6 +4,13 @@ body{
     margin: 0 auto;
 }
 
+.logo{
+    margin-top: 38px;
+    max-width: 80px;
+    margin-bottom: 20px;
+    
+}
+
 .content{
     display: flex;
 }
@@ -19,14 +26,6 @@ body{
     place-items: center;
     padding-top: 10px;
     padding-left: 45px;
-}
-
-
-.logo{
-    margin-top: 38px;
-    max-width: 80px;
-    margin-bottom: 20px;
-    
 }
 
 .side_menu{
@@ -57,3 +56,4 @@ body{
 .side_menu .icon:hover{
     transform: scale(1.2);
 }
+

@@ -11,12 +11,14 @@ html {
   font-weight: bold;
 }
 
-.fName, .lName, .select, .textArea, .birth, .password, .email, .chkDiscord{
+.fName, .cpf, .birth, .gender, .email, .password, .confirm_password{
   padding-bottom: 20px;  
 }
 
-textarea {
-  resize: none;
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 button{
